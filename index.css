@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-top: 100px ;
+    margin: 0px ;
     padding: 0;
     width: 100%;
     min-height: 100vh; 
