@@ -1,12 +1,13 @@
 body {
-    background-image: url("https://cdn.pixabay.com/photo/2023/10/12/17/56/after-the-rain-8311416_1280.jpg");
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+  
     width: 100%;
     min-height: 100vh; 
     display: flex;
-    padding-top: 50px; 
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/12/17/56/after-the-rain-8311416_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
