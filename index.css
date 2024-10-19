@@ -1,0 +1,125 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2023/10/12/17/56/after-the-rain-8311416_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    width: 500px;
+    color: white;
+    margin: 25px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+   background-color: rgb(29, 72, 42);
+   opacity: 0.7;
+   border: 10px;
+   border-style: ridge;
+   border-color: rgb(52, 88, 59);
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 30px;
+}
+
+.search input {
+    border: 0;
+    font-weight: bold;
+    outline: 0;
+    background: whitesmoke;
+    color: black;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.humidity1, .wind1 {
+    width: 100px; 
+    height: 100px;
+    margin-right: 10px;
+}
+
+.align1, .align2 {
+    text-align: left;
+}
+.search button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    background: whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.search button:hover {
+    background-color: lightgray; 
+}
+
+.search button:active {
+    background-color: gray; 
+}
+
+.search button img {
+    width: 30px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
